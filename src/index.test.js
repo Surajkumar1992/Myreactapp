@@ -9,7 +9,7 @@ describe('Our First Test', () => {
 });
 
 describe('index.html', () => {
-    it('Should say hello', () => {
+    it('Should say First Reactapp Application', () => {
         const index = fs.readFileSync("./src/index.html", "utf8");
         const {JSDOM} = jsdom;
         const dom = new JSDOM(index);
